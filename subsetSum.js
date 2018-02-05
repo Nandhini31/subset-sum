@@ -12,6 +12,7 @@ function combos(num){
 }
 
 function recursiveSum(arr=[],index,num,sum,comboArray){
+  console.time("my timer")
   let subArray = [] ;
   if(sum < 0)
     return ;
@@ -30,8 +31,13 @@ function recursiveSum(arr=[],index,num,sum,comboArray){
     recursiveSum(arr,index+1,num,sum-j,comboArray)
     }
 }
+var t0 = performance.now();
 
 combos(3)
+var t1 = performance.now();
+console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.")
+
+
 // combos(5)
 // combos(29)
 // combos(0)
