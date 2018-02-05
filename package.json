@@ -1,0 +1,19 @@
+{
+  "name": "subset-sum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "findUniq.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nandhini31/subset-sum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nandhini31/subset-sum/issues"
+  },
+  "homepage": "https://github.com/Nandhini31/subset-sum#readme"
+}
