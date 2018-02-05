@@ -13,6 +13,6 @@ for (var i = 0; i < array.length; i++) {
   }
 
 
-findUniq([ 0, 0, 0.55, 0, 0 ])
-findUniq([0,0,0,0,0,0,1])
-findUniq([0,0,0,0,0,1])
+console.log(findUniq([ 0, 0, 0.55, 0, 0 ]))
+//console.log(findUniq([0,0,0,0,0,0,1])
+//findUniq([0,0,0,0,0,1])
