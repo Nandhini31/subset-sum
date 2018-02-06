@@ -18,7 +18,3 @@ Other approach I might consider is to build a hash map of the values and frequen
 ### Testing
   - As the task was to write pure functions,
    I chose to manually testing my calling the function with different parameters that would cover positive, negative and edge cases.
-
-### References
-  - GeeksforGeeks
-  - Stackoverflow
