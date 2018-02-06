@@ -4,7 +4,7 @@ function combos(num){
     return;
   }
   else{
-    let array = new Array(num)
+    let array = []
     let comboArray = []
     recursiveSum(array,0,num,num,comboArray);
     console.log("Array that has all combinations",comboArray)
@@ -31,7 +31,7 @@ function recursiveSum(arr,index,num,sum,comboArray){
     }
 }
 
-combos(5)
+combos(3)
 
 
 // combos(5)
