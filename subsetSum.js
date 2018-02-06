@@ -11,23 +11,23 @@ function combos(num){
   }
 }
 
-function recursiveSum(arr,index,num,sum,comboArray){
+function recursiveSum(array,index,num,sum,comboArray){
   let subArray = [] ;
   if(sum < 0)
     return ;
 
   if(sum === 0){
     for(let i = 0; i< index;i++)
-      subArray.push(arr[i])
+      subArray.push(array[i])
     comboArray.push(subArray)
   return comboArray;
   }
 
-  let prevItem = (index === 0)? 1 : arr[index-1];
+  let prevItem = (index === 0)? 1 : array[index-1];
 
   for(let j = prevItem; j<= num; j++){
-    arr[index] = j;
-    recursiveSum(arr,index+1,num,sum-j,comboArray)
+    array[index] = j;
+    recursiveSum(array,index+1,num,sum-j,comboArray)
     }
 }
 
