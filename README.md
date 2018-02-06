@@ -1,6 +1,6 @@
 ### How to set up and run
 - Clone repo and navigate to the folder
-- `npm install` to install node
+- `npm install` to install dependencies
 - `node findUniq` to run the function for  findUniq JS gist
 - `node subsetSum` to run the function for combos JS gist
 
